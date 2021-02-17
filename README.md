@@ -5,7 +5,17 @@ Launch gsap scrollTrigger plugin from your HTML DOM via data-attributes
 In order to initialize this code you have to include several libraries in your project before start:
 
 - jQuery
-- gsap library, includin scrollTrigger plugin
+- gsap library, including scrollTrigger plugin
+
+```
+<!-- jQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+```
+
+```
+<!-- jQuery NPM Install -->
+npm i jquery
+```
 
 With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start.
 
