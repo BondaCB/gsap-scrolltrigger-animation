@@ -1,4 +1,4 @@
-# scrollTriggerHTMLData
+# GSTA - GSAP ScrollTrigger Animation
 Launch gsap scrollTrigger plugin from your HTML DOM via data-attributes
 
 ## Requirements
