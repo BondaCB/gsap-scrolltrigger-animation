@@ -2,7 +2,7 @@
 Launch gsap scrollTrigger plugin from your HTML DOM via data-attributes
 
 ## Requirements
-In order to initialize this code you have to include several libraries in your project before start:
+In order to initialize this code you have to include several libraries in your project before start. Due this repository is not a plugin, nor library, the main setting of animations is quite simple and just have to link (from CDN) or install via node modules the required libraries and plugins. Once you have installed the mentioned libraries you can start creating animations directly on your HTML code without a single line of code.
 
 - jQuery
 
@@ -28,9 +28,6 @@ With npm installation ScrollTrigger plugin is included.
 With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start. This file includes the **gsap.registerPlugin(ScrollTrigger)** that is mandatory in order to run the plugin properly.
 
 > **!IMPORTANT:** this repository is just a faster way to launch simply animations on scroll and it's based on scrollTrigger plugin, but this plugin is not provided with this code and a review of the Green Sock license is required if you want to include it on your project.
-
-## Settings
-Due this repository is not a plugin, nor library, the main setting of animations is quite simple and just have to link (from CDN) or install via node modules the required libraries and plugins. Once you have installed the mentioned libraries you can start creating animations directly on your HTML code without a single line of code.
 
 ## Trigger
 First of all you have to set a **trigger** to initialize your animation on scroll through it. By default, data-gsta-trigger starts when the top of trigger element hits the 75% from viewport top. As gsap defines in their documentation this is written 'top 75%' and in this code is the same for the value start and end of the trigger element. This default value can be overwritted if a value is included into `data-gsta-trigger`. If this option is used, start/end trigger will be the same, so animation will start and end at same moment.
