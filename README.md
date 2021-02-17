@@ -7,7 +7,7 @@ In order to initialize this code you have to include several libraries in your p
 - jQuery
 - gsap library, includin scrollTrigger plugin
 
-With this libraries installed in your project you just have to include the main file **gsta.js** and everything is ready to start.
+With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start.
 
 **Important:** this repository is just a faster way to launch simply animations on scroll and it's based on scrollTrigger plugin, but this plugin is not provided with this code and a review of the Green Sock license is required if you want to include it on your project.
 
