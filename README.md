@@ -7,27 +7,23 @@ In order to initialize this code you have to include several libraries in your p
 - jQuery
 
 ```
-<!-- jQuery CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-<!-- jQuery NPM Install -->
-npm i jquery
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+```
+or
+```
+$ npm i jquery
 ```
 
-- gsap library, including scrollTrigger plugin
+- GSAP Library (Including ScrollTrigger plugin)
 ```
-
-<!-- GSAP CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
-
-<!-- GSAP ScrollTrigger CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
-
-<!-- GSAP NPM Install -->
-npm i gsap
-
-<!-- GSAP ScrollTrigger is included when install node modlues -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
 ```
+or
+```
+$ npm i gsap
+```
+With npm installation ScrollTrigger plugin is included.
 
 With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start. This file includes the **gsap.registerPlugin(ScrollTrigger)** that is mandatory in order to run properly the plugin.
 
@@ -131,7 +127,7 @@ The animation doesn't comes with delay, so default delay is 0, but if a combinat
 ```
 
 ## Stagger
-If a banch of animations is needed it can be achieved by using the `data-gsta-stagger` attribute. But it necessary to remember that this attribute changes the behaviour of the code and it's not applied to the element itself but to the indicated target. All the targets for the stagger will share the same animation indicated on the parent element.
+If a banch of animations is needed it can be achieved by using the `data-gsta-stagger` attribute. But it is necessary to remember that this attribute changes the behaviour of the code and it's not applied to the element itself but to the indicated target. All the targets for the stagger will share the same animation indicated on the parent element.
 
 ```html
 <!-- Stagger Animation -->
