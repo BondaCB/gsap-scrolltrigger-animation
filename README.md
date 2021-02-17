@@ -25,7 +25,7 @@ $ npm i gsap
 ```
 With npm installation ScrollTrigger plugin is included.
 
-With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start. This file includes the **gsap.registerPlugin(ScrollTrigger)** that is mandatory in order to run properly the plugin.
+With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start. This file includes the **gsap.registerPlugin(ScrollTrigger)** that is mandatory in order to run the plugin properly.
 
 > **!IMPORTANT:** this repository is just a faster way to launch simply animations on scroll and it's based on scrollTrigger plugin, but this plugin is not provided with this code and a review of the Green Sock license is required if you want to include it on your project.
 
