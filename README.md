@@ -5,21 +5,33 @@ Launch gsap scrollTrigger plugin from your HTML DOM via data-attributes
 In order to initialize this code you have to include several libraries in your project before start:
 
 - jQuery
-- gsap library, including scrollTrigger plugin
 
 ```
 <!-- jQuery CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-```
 
-```
 <!-- jQuery NPM Install -->
 npm i jquery
 ```
 
-With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start.
+- gsap library, including scrollTrigger plugin
+```
 
-**Important:** this repository is just a faster way to launch simply animations on scroll and it's based on scrollTrigger plugin, but this plugin is not provided with this code and a review of the Green Sock license is required if you want to include it on your project.
+<!-- GSAP CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+
+<!-- GSAP ScrollTrigger CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+
+<!-- GSAP NPM Install -->
+npm i gsap
+
+<!-- GSAP ScrollTrigger is included when install node modlues -->
+```
+
+With this libraries installed in your project you just have to include the main file **gsap-scrolltrigger-animation.js** and everything is ready to start. This file includes the **gsap.registerPlugin(ScrollTrigger)** that is mandatory in order to run properly the plugin.
+
+**!IMPORTANT:** this repository is just a faster way to launch simply animations on scroll and it's based on scrollTrigger plugin, but this plugin is not provided with this code and a review of the Green Sock license is required if you want to include it on your project.
 
 ## Settings
 Due this repository is not a plugin, nor library, the main setting of animations is quite simple and just have to link (from CDN) or install via node modules the required libraries and plugins. Once you have installed the mentioned libraries you can start creating animations directly on your HTML code without a single line of code.
